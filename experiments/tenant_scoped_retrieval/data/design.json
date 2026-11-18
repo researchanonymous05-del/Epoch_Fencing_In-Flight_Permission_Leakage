@@ -1,0 +1,40 @@
+{
+  "config": {
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "tenants": 20,
+    "k": 5,
+    "dimensions": 128,
+    "repeats": 3,
+    "ef": 100,
+    "flat_search_cutoff": 0,
+    "image": "typesense/typesense:30.2",
+    "port": 8112,
+    "cpu_limit": 2,
+    "memory_limit": "2g",
+    "phases": [
+      "current",
+      "stale_revocation",
+      "applied_revocation"
+    ],
+    "scope": "tenant membership and document active state; vector-only retrieval; serial warm local HTTP"
+  },
+  "source_sha256": "e6397eadaa3ed98b6e86314834017f635f9e5c4d89c0bad6bf8d17a8fe147c88",
+  "runner_sha256": "7bf475508e3e99752dc42e74cba1a946a98381daee6f39c96b9acbc694a06ab5",
+  "source_counts": {
+    "records": 1430,
+    "accounts": 200,
+    "development": 40,
+    "test_queries": 160
+  },
+  "vectorizer": "TF-IDF unigram/bigram + rank-128 truncated SVD + L2 normalization; not neural embeddings",
+  "vocabulary": 1543,
+  "projection_seed": 71,
+  "explained_variance_ratio_sum": 0.7516684072920993,
+  "frozen_before_heldout_execution": true,
+  "ground_truth": "Separate in-memory tenant assignment + active-state ledger; exact NumPy cosine reference; tie aware tolerance 1e-5",
+  "revocation": "Per query choose its initially authorized highest cosine-scored document; revoke the union. Stale phase intentionally does not update indexes. Applied phase updates both shared and tenant copies and waits for acknowledgements. No concurrent queries."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "independent_scoring_rows": 46080,
+  "admission_contract_rows": 23040,
+  "concurrent_rows_verified": 1519,
+  "fault_rows_verified": 640,
+  "groups": 48,
+  "requests_per_group": 960,
+  "case_seed_units_per_group": 480,
+  "privacy": "oracle contains only synthetic IDs and numerical ranks; no catalog text or embeddings"
+}

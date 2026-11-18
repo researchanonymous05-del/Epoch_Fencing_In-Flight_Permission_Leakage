@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "serial_rows": 12000,
+  "conditions": 26,
+  "concurrent_rows": 340,
+  "protected_concurrent_rows": 242,
+  "source_oracles": 1920,
+  "padding": "nonindexed IDs; list representation and transport scaling only",
+  "size_limit_observation": "all measured requests completed; no rejection at tested maximum, not an unlimited-size guarantee"
+}

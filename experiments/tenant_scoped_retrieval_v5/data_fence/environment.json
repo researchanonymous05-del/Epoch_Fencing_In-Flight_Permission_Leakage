@@ -1,0 +1,10 @@
+{
+  "typesense": {
+    "state": 1,
+    "version": "30.2"
+  },
+  "search_cpu_limit": 2,
+  "search_memory_gib": 2,
+  "authority": "host process, outside search CPU limit",
+  "revoker": "separate thread; time.sleep to target then ledger commit under the authority lock"
+}

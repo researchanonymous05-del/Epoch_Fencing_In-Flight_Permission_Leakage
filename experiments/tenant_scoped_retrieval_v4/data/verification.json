@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "independently_rescored_requests": 57600,
+  "conditions": 60,
+  "timings_per_condition": 960,
+  "case_seed_units_per_condition": 480,
+  "prefilter_requests_checked": 9600,
+  "refill_requests_checked": 9600,
+  "delayed_policy_calls_checked": 13280,
+  "source_oracles": 2880
+}

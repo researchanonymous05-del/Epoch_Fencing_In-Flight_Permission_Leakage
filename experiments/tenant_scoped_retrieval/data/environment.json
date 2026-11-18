@@ -1,0 +1,40 @@
+{
+  "platform": "macOS-14.7.3-x86_64-i386-64bit",
+  "python": "3.12.2",
+  "numpy": "1.26.4",
+  "sklearn": "1.5.1",
+  "typesense_debug": {
+    "state": 1,
+    "version": "30.2"
+  },
+  "cpu_info": "Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz",
+  "config": {
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "tenants": 20,
+    "k": 5,
+    "dimensions": 128,
+    "repeats": 3,
+    "ef": 100,
+    "flat_search_cutoff": 0,
+    "image": "typesense/typesense:30.2",
+    "port": 8112,
+    "cpu_limit": 2,
+    "memory_limit": "2g",
+    "phases": [
+      "current",
+      "stale_revocation",
+      "applied_revocation"
+    ],
+    "scope": "tenant membership and document active state; vector-only retrieval; serial warm local HTTP"
+  },
+  "existing_container_names_before": [
+    "<redacted: unrelated local containers>"
+  ],
+  "docker_image_inspect": [
+    "typesense/typesense@sha256:610f2d34b1f93d00762869da2c67736775e5798d19a2c8b91b014b8a0cc1e110"
+  ]
+}

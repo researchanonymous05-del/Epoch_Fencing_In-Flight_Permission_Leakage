@@ -1,0 +1,101 @@
+{
+  "config": {
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "representations": [
+      "lexical",
+      "neural"
+    ],
+    "list_sizes": [
+      100,
+      1000,
+      10000
+    ],
+    "list_cases": 40,
+    "list_case_seed": 777,
+    "list_arms": [
+      "P",
+      "Pbody",
+      "G20"
+    ],
+    "refill_arms": [
+      "G20",
+      "P",
+      "R",
+      "RP"
+    ],
+    "page_size": 5,
+    "page_horizon": 80,
+    "repeats": 2,
+    "revoked_count": 143,
+    "concurrent_workers": [
+      "A1",
+      "G20",
+      "P",
+      "R",
+      "RP"
+    ],
+    "concurrent_seed": 11,
+    "concurrent_update_wait_ms": 75,
+    "concurrent_post_ack_ms": 150,
+    "port": 8115,
+    "image": "typesense/typesense:30.2",
+    "filter_by_max_ops": 100,
+    "padding": "per-tenant nonexistent numeric IDs >=1000000; selectivity held fixed; not 10k indexed revocations",
+    "body_route": "diagnostic only, fresh filter in trusted request body; not an immutable scoped-filter substitute",
+    "page_contract": "k=80 per_page=5 page increments; revalidate accumulated unique IDs each round; no cursor/snapshot claim",
+    "race": "concurrent requests start after authority commit; in-flight authority changes excluded"
+  },
+  "runner_sha256": "587d4d915473cad0a1872e0883d9128895c8f381420d6d268e59f666066b722d",
+  "source_sha256": "e6397eadaa3ed98b6e86314834017f635f9e5c4d89c0bad6bf8d17a8fe147c88",
+  "list_subset_cases": [
+    "syn-074",
+    "syn-144",
+    "syn-198",
+    "syn-118",
+    "syn-185",
+    "syn-087",
+    "syn-108",
+    "syn-173",
+    "syn-014",
+    "syn-197",
+    "syn-176",
+    "syn-125",
+    "syn-093",
+    "syn-038",
+    "syn-037",
+    "syn-025",
+    "syn-107",
+    "syn-034",
+    "syn-002",
+    "syn-193",
+    "syn-195",
+    "syn-086",
+    "syn-035",
+    "syn-067",
+    "syn-099",
+    "syn-162",
+    "syn-042",
+    "syn-134",
+    "syn-012",
+    "syn-113",
+    "syn-047",
+    "syn-182",
+    "syn-088",
+    "syn-139",
+    "syn-186",
+    "syn-112",
+    "syn-079",
+    "syn-016",
+    "syn-159",
+    "syn-073"
+  ],
+  "frozen_before_measurement": true,
+  "list_security_units_per_condition": 120,
+  "list_timings_per_condition": 240,
+  "refill_security_units_per_condition": 480,
+  "refill_timings_per_condition": 960
+}

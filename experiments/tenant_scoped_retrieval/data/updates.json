@@ -1,0 +1,17 @@
+[
+  {
+    "seed": 11,
+    "revoked_documents": 158,
+    "acknowledged_update_batch_ms": 130.67929
+  },
+  {
+    "seed": 29,
+    "revoked_documents": 152,
+    "acknowledged_update_batch_ms": 90.022199
+  },
+  {
+    "seed": 47,
+    "revoked_documents": 154,
+    "acknowledged_update_batch_ms": 85.357724
+  }
+]

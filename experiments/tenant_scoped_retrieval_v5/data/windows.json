@@ -1,0 +1,18 @@
+[
+  {
+    "representation": "lexical",
+    "seed": 11,
+    "commit_ns": 231196996773633,
+    "update_start_ns": 231197076400144,
+    "update_ack_ns": 231197102377320,
+    "observations": 221
+  },
+  {
+    "representation": "neural",
+    "seed": 11,
+    "commit_ns": 231252301145365,
+    "update_start_ns": 231252385277601,
+    "update_ack_ns": 231252519342898,
+    "observations": 119
+  }
+]

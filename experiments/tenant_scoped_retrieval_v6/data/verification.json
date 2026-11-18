@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "stable": 15360,
+  "race": 15360,
+  "churn": 7680,
+  "victim_is_own_support_record": 0.859375
+}

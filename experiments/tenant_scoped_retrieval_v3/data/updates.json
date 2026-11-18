@@ -1,0 +1,86 @@
+[
+  {
+    "representation": "lexical",
+    "seed": 11,
+    "regime": "targeted",
+    "revoked": 158,
+    "batch_ms": 87.649831
+  },
+  {
+    "representation": "lexical",
+    "seed": 11,
+    "regime": "random10",
+    "revoked": 143,
+    "batch_ms": 113.835708
+  },
+  {
+    "representation": "lexical",
+    "seed": 29,
+    "regime": "targeted",
+    "revoked": 152,
+    "batch_ms": 87.361084
+  },
+  {
+    "representation": "lexical",
+    "seed": 29,
+    "regime": "random10",
+    "revoked": 143,
+    "batch_ms": 87.277103
+  },
+  {
+    "representation": "lexical",
+    "seed": 47,
+    "regime": "targeted",
+    "revoked": 154,
+    "batch_ms": 86.783634
+  },
+  {
+    "representation": "lexical",
+    "seed": 47,
+    "regime": "random10",
+    "revoked": 143,
+    "batch_ms": 79.323037
+  },
+  {
+    "representation": "neural",
+    "seed": 11,
+    "regime": "targeted",
+    "revoked": 158,
+    "batch_ms": 134.79696
+  },
+  {
+    "representation": "neural",
+    "seed": 11,
+    "regime": "random10",
+    "revoked": 143,
+    "batch_ms": 158.59192
+  },
+  {
+    "representation": "neural",
+    "seed": 29,
+    "regime": "targeted",
+    "revoked": 153,
+    "batch_ms": 157.406394
+  },
+  {
+    "representation": "neural",
+    "seed": 29,
+    "regime": "random10",
+    "revoked": 143,
+    "batch_ms": 137.91124
+  },
+  {
+    "representation": "neural",
+    "seed": 47,
+    "regime": "targeted",
+    "revoked": 154,
+    "batch_ms": 122.283448
+  },
+  {
+    "representation": "neural",
+    "seed": 47,
+    "regime": "random10",
+    "revoked": 143,
+    "batch_ms": 121.89577
+  }
+]

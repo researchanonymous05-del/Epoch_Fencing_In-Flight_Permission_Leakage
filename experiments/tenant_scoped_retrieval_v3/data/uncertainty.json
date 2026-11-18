@@ -1,0 +1,34 @@
+{
+  "method": "Post-hoc sensitivity: 2000 case-block resamples; 160 cases, preserving all ownership assignments and repeats within each case. Conditional on this corpus, three assignments and one timing run; not independent deployment or security population bounds.",
+  "seed": 20261101,
+  "paired_cost_intervals": [
+    {
+      "representation": "lexical",
+      "arm": "G5",
+      "median_added_ms": 0.4387684999999999,
+      "case_block_percentile_95_low_ms": 0.40145799999999987,
+      "case_block_percentile_95_high_ms": 0.46603000000000017
+    },
+    {
+      "representation": "lexical",
+      "arm": "G20",
+      "median_added_ms": 1.565481,
+      "case_block_percentile_95_low_ms": 1.5274940000000004,
+      "case_block_percentile_95_high_ms": 1.597266
+    },
+    {
+      "representation": "neural",
+      "arm": "G5",
+      "median_added_ms": 0.48462599999999956,
+      "case_block_percentile_95_low_ms": 0.42232371249999984,
+      "case_block_percentile_95_high_ms": 0.540813
+    },
+    {
+      "representation": "neural",
+      "arm": "G20",
+      "median_added_ms": 3.4478345000000004,
+      "case_block_percentile_95_low_ms": 3.3273680000000003,
+      "case_block_percentile_95_high_ms": 3.5330565
+    }
+  ]
+}

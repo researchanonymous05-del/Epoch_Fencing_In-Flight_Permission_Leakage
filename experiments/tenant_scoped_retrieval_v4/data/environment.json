@@ -1,0 +1,10 @@
+{
+  "typesense": {
+    "state": 1,
+    "version": "30.2"
+  },
+  "search_cpu_limit": 2,
+  "search_memory_gib": 2,
+  "authority": "host outside search CPU limit",
+  "injected_wait": "monotonic wall-clock response wait after snapshot, no transport emulator"
+}

@@ -1,0 +1,427 @@
+{
+  "groups": [
+    {
+      "arm": "A0",
+      "phase": "applied_revocation",
+      "requests": 1440,
+      "case_seed_units": 480,
+      "units_exposed_any_repeat": 480,
+      "cross_tenant_exposed_requests": 1440,
+      "revoked_exposed_requests": 1416,
+      "unauthorized_exposed_requests": 1440,
+      "mean_recall_at_5": 0.020833333333333336,
+      "false_denials": 0,
+      "no_authorized_evidence": 1290,
+      "p50_ms": 2.5231855000000003,
+      "p95_ms": 4.281825349999999,
+      "seed_stats": [
+        {
+          "seed": 11,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.01375,
+          "p50_ms": 3.408765,
+          "p95_ms": 5.11584375
+        },
+        {
+          "seed": 29,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.02375,
+          "p50_ms": 2.3992725000000004,
+          "p95_ms": 3.649140649999999
+        },
+        {
+          "seed": 47,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.025000000000000005,
+          "p50_ms": 2.1886335,
+          "p95_ms": 2.74108685
+        }
+      ]
+    },
+    {
+      "arm": "A0",
+      "phase": "current",
+      "requests": 1440,
+      "case_seed_units": 480,
+      "units_exposed_any_repeat": 480,
+      "cross_tenant_exposed_requests": 1440,
+      "revoked_exposed_requests": 0,
+      "unauthorized_exposed_requests": 1440,
+      "mean_recall_at_5": 0.2316666666666667,
+      "false_denials": 0,
+      "no_authorized_evidence": 18,
+      "p50_ms": 2.6102160000000003,
+      "p95_ms": 4.865442249999999,
+      "seed_stats": [
+        {
+          "seed": 11,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.22500000000000006,
+          "p50_ms": 2.690756,
+          "p95_ms": 5.949158499999997
+        },
+        {
+          "seed": 29,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.23250000000000004,
+          "p50_ms": 3.267136,
+          "p95_ms": 4.906625449999997
+        },
+        {
+          "seed": 47,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.23750000000000007,
+          "p50_ms": 2.2680404999999997,
+          "p95_ms": 2.9667066499999994
+        }
+      ]
+    },
+    {
+      "arm": "A0",
+      "phase": "stale_revocation",
+      "requests": 1440,
+      "case_seed_units": 480,
+      "units_exposed_any_repeat": 480,
+      "cross_tenant_exposed_requests": 1440,
+      "revoked_exposed_requests": 1416,
+      "unauthorized_exposed_requests": 1440,
+      "mean_recall_at_5": 0.020833333333333336,
+      "false_denials": 0,
+      "no_authorized_evidence": 1290,
+      "p50_ms": 2.4845854999999997,
+      "p95_ms": 4.3463417,
+      "seed_stats": [
+        {
+          "seed": 11,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.01375,
+          "p50_ms": 2.7724115,
+          "p95_ms": 4.970349349999999
+        },
+        {
+          "seed": 29,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.023749999999999997,
+          "p50_ms": 2.458144,
+          "p95_ms": 4.299486249999999
+        },
+        {
+          "seed": 47,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.025,
+          "p50_ms": 2.3275465,
+          "p95_ms": 2.9839708999999996
+        }
+      ]
+    },
+    {
+      "arm": "A1",
+      "phase": "applied_revocation",
+      "requests": 1440,
+      "case_seed_units": 480,
+      "units_exposed_any_repeat": 0,
+      "cross_tenant_exposed_requests": 0,
+      "revoked_exposed_requests": 0,
+      "unauthorized_exposed_requests": 0,
+      "mean_recall_at_5": 1.0,
+      "false_denials": 0,
+      "no_authorized_evidence": 0,
+      "p50_ms": 3.071868,
+      "p95_ms": 5.050213149999999,
+      "seed_stats": [
+        {
+          "seed": 11,
+          "exposure_requests": 0,
+          "requests": 480,
+          "mean_recall": 1.0,
+          "p50_ms": 4.043488,
+          "p95_ms": 5.7459270999999985
+        },
+        {
+          "seed": 29,
+          "exposure_requests": 0,
+          "requests": 480,
+          "mean_recall": 1.0,
+          "p50_ms": 2.949256,
+          "p95_ms": 4.347831299999994
+        },
+        {
+          "seed": 47,
+          "exposure_requests": 0,
+          "requests": 480,
+          "mean_recall": 1.0,
+          "p50_ms": 2.7508895,
+          "p95_ms": 3.2662740500000003
+        }
+      ]
+    },
+    {
+      "arm": "A1",
+      "phase": "current",
+      "requests": 1440,
+      "case_seed_units": 480,
+      "units_exposed_any_repeat": 0,
+      "cross_tenant_exposed_requests": 0,
+      "revoked_exposed_requests": 0,
+      "unauthorized_exposed_requests": 0,
+      "mean_recall_at_5": 1.0,
+      "false_denials": 0,
+      "no_authorized_evidence": 0,
+      "p50_ms": 3.207005,
+      "p95_ms": 5.5225297,
+      "seed_stats": [
+        {
+          "seed": 11,
+          "exposure_requests": 0,
+          "requests": 480,
+          "mean_recall": 1.0,
+          "p50_ms": 3.3239765,
+          "p95_ms": 5.57363055
+        },
+        {
+          "seed": 29,
+          "exposure_requests": 0,
+          "requests": 480,
+          "mean_recall": 1.0,
+          "p50_ms": 3.9312465000000003,
+          "p95_ms": 6.12829835
+        },
+        {
+          "seed": 47,
+          "exposure_requests": 0,
+          "requests": 480,
+          "mean_recall": 1.0,
+          "p50_ms": 2.807782,
+          "p95_ms": 3.5920539999999996
+        }
+      ]
+    },
+    {
+      "arm": "A1",
+      "phase": "stale_revocation",
+      "requests": 1440,
+      "case_seed_units": 480,
+      "units_exposed_any_repeat": 480,
+      "cross_tenant_exposed_requests": 0,
+      "revoked_exposed_requests": 1440,
+      "unauthorized_exposed_requests": 1440,
+      "mean_recall_at_5": 0.21166666666666667,
+      "false_denials": 0,
+      "no_authorized_evidence": 411,
+      "p50_ms": 3.0580795,
+      "p95_ms": 5.168446599999999,
+      "seed_stats": [
+        {
+          "seed": 11,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.2,
+          "p50_ms": 3.45655,
+          "p95_ms": 6.442355599999995
+        },
+        {
+          "seed": 29,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.22625,
+          "p50_ms": 3.0215375,
+          "p95_ms": 4.910401949999997
+        },
+        {
+          "seed": 47,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.20875000000000002,
+          "p50_ms": 2.8683009999999998,
+          "p95_ms": 3.8302448499999993
+        }
+      ]
+    },
+    {
+      "arm": "A2",
+      "phase": "applied_revocation",
+      "requests": 1440,
+      "case_seed_units": 480,
+      "units_exposed_any_repeat": 0,
+      "cross_tenant_exposed_requests": 0,
+      "revoked_exposed_requests": 0,
+      "unauthorized_exposed_requests": 0,
+      "mean_recall_at_5": 1.0,
+      "false_denials": 0,
+      "no_authorized_evidence": 0,
+      "p50_ms": 2.50339,
+      "p95_ms": 4.29013215,
+      "seed_stats": [
+        {
+          "seed": 11,
+          "exposure_requests": 0,
+          "requests": 480,
+          "mean_recall": 1.0,
+          "p50_ms": 3.483486,
+          "p95_ms": 5.083288049999999
+        },
+        {
+          "seed": 29,
+          "exposure_requests": 0,
+          "requests": 480,
+          "mean_recall": 1.0,
+          "p50_ms": 2.4124600000000003,
+          "p95_ms": 3.458061449999999
+        },
+        {
+          "seed": 47,
+          "exposure_requests": 0,
+          "requests": 480,
+          "mean_recall": 1.0,
+          "p50_ms": 2.1984235,
+          "p95_ms": 2.6891587999999995
+        }
+      ]
+    },
+    {
+      "arm": "A2",
+      "phase": "current",
+      "requests": 1440,
+      "case_seed_units": 480,
+      "units_exposed_any_repeat": 0,
+      "cross_tenant_exposed_requests": 0,
+      "revoked_exposed_requests": 0,
+      "unauthorized_exposed_requests": 0,
+      "mean_recall_at_5": 1.0,
+      "false_denials": 0,
+      "no_authorized_evidence": 0,
+      "p50_ms": 2.5997185,
+      "p95_ms": 4.7634858,
+      "seed_stats": [
+        {
+          "seed": 11,
+          "exposure_requests": 0,
+          "requests": 480,
+          "mean_recall": 1.0,
+          "p50_ms": 2.663659,
+          "p95_ms": 5.381312099999997
+        },
+        {
+          "seed": 29,
+          "exposure_requests": 0,
+          "requests": 480,
+          "mean_recall": 1.0,
+          "p50_ms": 3.211793,
+          "p95_ms": 5.014817849999999
+        },
+        {
+          "seed": 47,
+          "exposure_requests": 0,
+          "requests": 480,
+          "mean_recall": 1.0,
+          "p50_ms": 2.2378055000000003,
+          "p95_ms": 2.7914545
+        }
+      ]
+    },
+    {
+      "arm": "A2",
+      "phase": "stale_revocation",
+      "requests": 1440,
+      "case_seed_units": 480,
+      "units_exposed_any_repeat": 480,
+      "cross_tenant_exposed_requests": 0,
+      "revoked_exposed_requests": 1440,
+      "unauthorized_exposed_requests": 1440,
+      "mean_recall_at_5": 0.21208333333333335,
+      "false_denials": 0,
+      "no_authorized_evidence": 411,
+      "p50_ms": 2.487065,
+      "p95_ms": 4.38298345,
+      "seed_stats": [
+        {
+          "seed": 11,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.2,
+          "p50_ms": 2.851507,
+          "p95_ms": 4.853467049999997
+        },
+        {
+          "seed": 29,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.22625,
+          "p50_ms": 2.4525025,
+          "p95_ms": 4.090997199999999
+        },
+        {
+          "seed": 47,
+          "exposure_requests": 480,
+          "requests": 480,
+          "mean_recall": 0.21000000000000002,
+          "p50_ms": 2.341449,
+          "p95_ms": 2.99075505
+        }
+      ]
+    }
+  ],
+  "probes": [
+    {
+      "arm": "A1",
+      "probe": "omitted_filter",
+      "attempts": 480,
+      "unauthorized_hits": 0,
+      "nonempty": 480,
+      "authorization_errors": 0
+    },
+    {
+      "arm": "A1",
+      "probe": "opposing_filter",
+      "attempts": 480,
+      "unauthorized_hits": 0,
+      "nonempty": 0,
+      "authorization_errors": 0
+    },
+    {
+      "arm": "A1",
+      "probe": "other_collection",
+      "attempts": 480,
+      "unauthorized_hits": 0,
+      "nonempty": 0,
+      "authorization_errors": 480
+    },
+    {
+      "arm": "A2",
+      "probe": "omitted_filter",
+      "attempts": 480,
+      "unauthorized_hits": 0,
+      "nonempty": 480,
+      "authorization_errors": 0
+    },
+    {
+      "arm": "A2",
+      "probe": "opposing_filter",
+      "attempts": 480,
+      "unauthorized_hits": 0,
+      "nonempty": 0,
+      "authorization_errors": 0
+    },
+    {
+      "arm": "A2",
+      "probe": "other_collection",
+      "attempts": 480,
+      "unauthorized_hits": 0,
+      "nonempty": 0,
+      "authorization_errors": 480
+    }
+  ],
+  "total_requests": 12960,
+  "total_probes": 2880,
+  "scoring_note": "Raw runner field false_denial records no authorized evidence, including nonempty unauthorized-only responses. Summary false_denials uses eligible>0 and zero returned hits; raw field is reported separately as no_authorized_evidence. Naming correction; no re-execution or filtering.",
+  "uncertainty": "3 tenant assignments; per-seed ranges reported; repetitions not independent. No population confidence guarantee."
+}

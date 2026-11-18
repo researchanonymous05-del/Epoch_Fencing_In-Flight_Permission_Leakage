@@ -1,0 +1,12 @@
+{
+  "requests_independently_rescored": 12960,
+  "groups": 27,
+  "each_group_requests": 480,
+  "source_labels": "constructed not human annotated",
+  "revoked_documents_by_seed": {
+    "11": 158,
+    "29": 152,
+    "47": 154
+  },
+  "status": "passed"
+}

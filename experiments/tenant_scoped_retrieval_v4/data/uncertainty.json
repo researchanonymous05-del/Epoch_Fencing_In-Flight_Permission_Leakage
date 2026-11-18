@@ -1,0 +1,102 @@
+{
+  "method": "2000 case-block percentile resamples retaining all ownership seeds and repetitions within each of 160 cases; conditional sensitivity, not independent deployment confidence",
+  "seed": 20261101,
+  "results": [
+    {
+      "representation": "lexical",
+      "delay_ms": 0,
+      "arm": "G20",
+      "median_added_ms": 1.6759015,
+      "low_ms": 1.607374,
+      "high_ms": 1.721001
+    },
+    {
+      "representation": "lexical",
+      "delay_ms": 0,
+      "arm": "P",
+      "median_added_ms": 0.6216359999999999,
+      "low_ms": 0.5679755999999999,
+      "high_ms": 0.6772140000000002
+    },
+    {
+      "representation": "lexical",
+      "delay_ms": 0,
+      "arm": "R",
+      "median_added_ms": 1.58232,
+      "low_ms": 1.2737150000000002,
+      "high_ms": 2.6524509999999997
+    },
+    {
+      "representation": "lexical",
+      "delay_ms": 5,
+      "arm": "G20",
+      "median_added_ms": 6.2190175,
+      "low_ms": 6.149825,
+      "high_ms": 6.2838873500000005
+    },
+    {
+      "representation": "lexical",
+      "delay_ms": 5,
+      "arm": "P",
+      "median_added_ms": 6.5016395,
+      "low_ms": 6.409131499999999,
+      "high_ms": 6.582188
+    },
+    {
+      "representation": "lexical",
+      "delay_ms": 5,
+      "arm": "R",
+      "median_added_ms": 7.641726,
+      "low_ms": 7.106931,
+      "high_ms": 8.803780712500002
+    },
+    {
+      "representation": "neural",
+      "delay_ms": 0,
+      "arm": "G20",
+      "median_added_ms": 3.1806254999999997,
+      "low_ms": 3.0686255125,
+      "high_ms": 3.2974117125
+    },
+    {
+      "representation": "neural",
+      "delay_ms": 0,
+      "arm": "P",
+      "median_added_ms": 0.59274,
+      "low_ms": 0.5144220000000006,
+      "high_ms": 0.6616845
+    },
+    {
+      "representation": "neural",
+      "delay_ms": 0,
+      "arm": "R",
+      "median_added_ms": 2.1391910000000003,
+      "low_ms": 1.5217071500000001,
+      "high_ms": 3.691363
+    },
+    {
+      "representation": "neural",
+      "delay_ms": 5,
+      "arm": "G20",
+      "median_added_ms": 6.5016345,
+      "low_ms": 6.381433,
+      "high_ms": 6.5992187875
+    },
+    {
+      "representation": "neural",
+      "delay_ms": 5,
+      "arm": "P",
+      "median_added_ms": 6.533702,
+      "low_ms": 6.46413,
+      "high_ms": 6.613952
+    },
+    {
+      "representation": "neural",
+      "delay_ms": 5,
+      "arm": "R",
+      "median_added_ms": 7.2581775,
+      "low_ms": 6.9512105,
+      "high_ms": 7.584158500000001
+    }
+  ]
+}

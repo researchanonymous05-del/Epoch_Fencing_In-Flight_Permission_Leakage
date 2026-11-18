@@ -1,0 +1,71 @@
+{
+  "frozen_at": "before run_prospective.py measurement",
+  "model_sha256": "cd96ad39592217f27d10ba1a2493e246ca7785edad93096310cc9f935dd6f683",
+  "fit_sources": [
+    "v4 sweep/delay",
+    "v5 lists/refill"
+  ],
+  "coefficients": {
+    "lexical": {
+      "per_candidate_ms": 0.06421917749998822,
+      "per_ann_call_ms": 1.3910085134702506,
+      "per_policy_call_ms": 0.6870605041667273,
+      "per_waited_call_x_wait": 0.7500006815068476,
+      "per_filter_id_ms": 0.0015698188460644413,
+      "per_scoped_key_ms": -0.034161000494619044
+    },
+    "neural": {
+      "per_candidate_ms": 0.16830132249998295,
+      "per_ann_call_ms": 2.01428876887357,
+      "per_policy_call_ms": 0.6144278847223104,
+      "per_waited_call_x_wait": 1.1133072020547938,
+      "per_filter_id_ms": 0.002104238048665774,
+      "per_scoped_key_ms": -0.41562959686515716
+    }
+  },
+  "predictions": [
+    {
+      "representation": "lexical",
+      "rate_percent": 5,
+      "arm": "G6",
+      "predicted_recall_tenant_mean": 0.9929255262006239,
+      "predicted_delta_vs_G20_ms": -0.899068484999835
+    },
+    {
+      "representation": "lexical",
+      "rate_percent": 10,
+      "arm": "G7",
+      "predicted_recall_tenant_mean": 0.9939956657519974,
+      "predicted_delta_vs_G20_ms": -0.8348493074998469
+    },
+    {
+      "representation": "lexical",
+      "rate_percent": 25,
+      "arm": "G9",
+      "predicted_recall_tenant_mean": 0.9881259493102417,
+      "predicted_delta_vs_G20_ms": -0.7064109524998704
+    },
+    {
+      "representation": "neural",
+      "rate_percent": 5,
+      "arm": "G6",
+      "predicted_recall_tenant_mean": 0.9929255262006239,
+      "predicted_delta_vs_G20_ms": -2.356218514999761
+    },
+    {
+      "representation": "neural",
+      "rate_percent": 10,
+      "arm": "G7",
+      "predicted_recall_tenant_mean": 0.9939956657519974,
+      "predicted_delta_vs_G20_ms": -2.1879171924997785
+    },
+    {
+      "representation": "neural",
+      "rate_percent": 25,
+      "arm": "G9",
+      "predicted_recall_tenant_mean": 0.9881259493102417,
+      "predicted_delta_vs_G20_ms": -1.8513145474998125
+    }
+  ],
+  "note": "recall is a tenant-mean expectation; measured recall averages queries, whose tenants are weighted by query count"
+}
